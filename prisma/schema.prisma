@@ -1,0 +1,107 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model invoices {
+  id                   Int       @id @default(autoincrement())
+  user_id              Int?
+  currency             String    @db.VarChar(3)
+  gross_amount         Decimal   @db.Decimal(10, 2)
+  net_amount           Decimal   @db.Decimal(10, 2)
+  vat_amount           Decimal   @db.Decimal(10, 2)
+  vat_rate             String    @db.VarChar(10)
+  billing_name         String?   @db.VarChar(255)
+  billing_country      String    @db.VarChar(2)
+  billing_postal_code  String?   @db.VarChar(20)
+  billing_city         String?   @db.VarChar(100)
+  billing_address_line String?   @db.VarChar(255)
+  paypal_payer_id      String?   @db.VarChar(50)
+  created_at           DateTime? @default(now()) @db.Timestamp(0)
+  users                users?    @relation(fields: [user_id], references: [id], map: "fk_invoices_user")
+
+  @@index([created_at], map: "idx_created_at")
+  @@index([user_id], map: "idx_user_id")
+}
+
+model prompt_files {
+  id         Int       @id @default(autoincrement())
+  promt_id   Int
+  file_key   String?   @db.VarChar(255)
+  created_at DateTime? @default(now()) @db.Timestamp(0)
+  promts     promts    @relation(fields: [promt_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "fk_prompt_files_promt")
+
+  @@index([promt_id], map: "idx_promt_id")
+}
+
+model promts {
+  id           Int            @id @default(autoincrement())
+  session_id   Int
+  promt        String?        @db.Text
+  answare      String?        @db.MediumText
+  input_token  Int?
+  out_token    Int?
+  created_at   DateTime?      @default(now()) @db.Timestamp(0)
+  updated_at   DateTime?      @default(now()) @db.Timestamp(0)
+  prompt_files prompt_files[]
+  session      session        @relation(fields: [session_id], references: [id], onDelete: Cascade, onUpdate: NoAction, map: "fk_promts_session")
+
+  @@index([session_id], map: "idx_session_id")
+}
+
+model session {
+  id                  Int       @id @default(autoincrement())
+  session_crypted     String    @unique(map: "session_crypted") @db.VarChar(255)
+  user_id             Int
+  slice_index         Int?
+  session_placeholder String?   @db.VarChar(255)
+  created_at          DateTime? @default(now()) @db.Timestamp(0)
+  updated_at          DateTime? @default(now()) @db.Timestamp(0)
+  promts              promts[]
+  users               users     @relation(fields: [user_id], references: [id], onDelete: Cascade, map: "fk_session")
+
+  @@index([user_id], map: "idx_user_id")
+}
+
+model subscriptions {
+  id                  Int      @id @default(autoincrement())
+  user_id             Int      @unique(map: "user_id")
+  subscription_status String?  @default("inactive") @db.VarChar(255)
+  subscription_expiry BigInt?
+  sub_id              String?  @db.VarChar(255)
+  renewable           Boolean? @default(false)
+  customerId          String?  @db.VarChar(255)
+  remaining_credits   Int?     @default(0)
+  pending_sub_id      String?  @db.VarChar(255)
+  next_plan_id        String?  @db.VarChar(255)
+  nextPlan            String?  @db.VarChar(255)
+  processed_webhook   String?  @db.VarChar(255)
+  users               users    @relation(fields: [user_id], references: [id], onDelete: Cascade, map: "fk_sub")
+
+  @@index([subscription_status], map: "idx_status")
+  @@index([user_id], map: "idx_user_id")
+}
+
+model users {
+  id               Int            @id @default(autoincrement())
+  username         String         @unique(map: "username") @db.VarChar(255)
+  email            String         @unique(map: "email") @db.VarChar(255)
+  password         String?        @db.VarChar(255)
+  newemail         String?        @db.VarChar(255)
+  resetToken       String?        @db.VarChar(255)
+  resetTokenExpiry BigInt?
+  emailCode        Int?
+  emailCodeExpiry  BigInt?
+  googleid         String?        @db.VarChar(50)
+  refresh_token    String?        @db.VarChar(255)
+  instruction      String?        @db.VarChar(255)
+  created_at       DateTime?      @default(now()) @db.Timestamp(0)
+  updated_at       DateTime?      @default(now()) @db.Timestamp(0)
+  invoices         invoices[]
+  session          session[]
+  subscriptions    subscriptions?
+}

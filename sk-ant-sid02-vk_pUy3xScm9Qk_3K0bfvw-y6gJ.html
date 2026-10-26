@@ -1,0 +1,32 @@
+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
+
+
+      <div>
+        <div className='cansware'>
+          <div 
+               className="prose max-w-none text-white overflow-x-auto"
+               dangerouslySetInnerHTML={{ __html: responseText }} 
+             />
+          </div>
+          <div className='cask'>
+              <textarea
+                ref={textareaRef}
+                className="gemini-textarea"
+                value={text}
+                onChange={handleChange}
+                onKeyDown={handleKeyDown} 
+                placeholder="Ask Claude something..."
+                rows={1}
+              />
+              <button type='button'
+                className={`send-button ${text.trim() ? 'active' : ''}`}
+                onClick={handleSend}
+                disabled={!text.trim()}
+              >
+
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2.01 21L23 12L2.01 3L2 10L17 12L2 14L2.01 21Z" fill="currentColor"/>
+                </svg>
+              </button>
+        </div>
+      </div>

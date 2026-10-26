@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+fontosscriptek.txt
+teszt.js
+Untitled-1.html
+Untitled-2.xml
+sqlscripts.sql
+zod.txt

@@ -1,0 +1,1306 @@
+[2026-10-13 14:12:22] [ERROR] [PROD-ONLY]: /api/create-subscription | meta: {
+  "error": {
+    "message": "Cannot access 'plan' before initialization",
+    "stack": "ReferenceError: Cannot access 'plan' before initialization\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:53:139\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/rateLimiter.js:60:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 10,
+  "ip": "192.168.56.1"
+}
+[2026-10-13 16:49:59] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "code": "ER_DUP_ENTRY",
+  "errno": 1062,
+  "sqlState": "23000",
+  "sqlMessage": "Duplicate entry '0' for key 'session.session_name'",
+  "sql": "INSERT INTO session (user_id, session_name, session_placeholder) VALUES (?, ?, ?)"
+}
+[2026-10-13 16:49:59] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 18:15:45] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "getSignedUrl is not defined",
+    "stack": "ReferenceError: getSignedUrl is not defined\n    at getUploadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:110:15)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:144:21\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/rateLimiter.js:60:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.1.50"
+}
+[2026-10-13 18:17:43] [ERROR] [PROD-ONLY]: /api/getUploadUrl | meta: {
+  "error": {
+    "message": "Cannot read properties of undefined (reading 'fileName')",
+    "stack": "TypeError: Cannot read properties of undefined (reading 'fileName')\n    at getUploadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:101:56)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:145:21\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/rateLimiter.js:60:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.1.50"
+}
+[2026-10-13 18:18:02] [ERROR] [PROD-ONLY]: /api/getUploadUrl | meta: {
+  "error": {
+    "message": "Cannot read properties of undefined (reading 'fileName')",
+    "stack": "TypeError: Cannot read properties of undefined (reading 'fileName')\n    at getUploadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:101:56)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:147:21\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/rateLimiter.js:60:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.1.50"
+}
+[2026-10-13 18:23:35] [ERROR] [PROD-ONLY]: /api/getUploadUrl | meta: {
+  "error": {
+    "message": "Cannot read properties of undefined (reading 'fileName')",
+    "stack": "TypeError: Cannot read properties of undefined (reading 'fileName')\n    at getUploadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:101:56)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:147:21\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/rateLimiter.js:60:13\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.1.50"
+}
+[2026-10-13 19:00:22] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 19:00:22] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 19:00:22] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 19:03:03] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 19:03:03] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 19:03:03] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 19:03:16] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 19:03:16] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 19:03:16] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 19:52:53] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "code": "frontend"
+}
+[2026-10-13 19:52:53] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 19:54:23] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "code": "frontend"
+}
+[2026-10-13 19:54:23] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 19:55:26] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "code": "frontend"
+}
+[2026-10-13 19:55:26] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 19:58:30] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzfqCpWbz824FARMg5Cs",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011CfzfqCpWbz824FARMg5Cs"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:04:46] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzgJt6eVeqhRsadCYWtC",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0.image.source.base64: invalid base64 data"
+    },
+    "request_id": "req_011CfzgJt6eVeqhRsadCYWtC"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:05:22] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzgMad292iMFdcaR6KYp",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0.image.source.base64: invalid base64 data"
+    },
+    "request_id": "req_011CfzgMad292iMFdcaR6KYp"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:05:44] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzgPBdDHxHUMJ54Hji67",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0.image.source.base64: invalid base64 data"
+    },
+    "request_id": "req_011CfzgPBdDHxHUMJ54Hji67"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:13:25] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzgy89KF4rfTZf8jJA3W",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0.image.source.base64: invalid base64 data"
+    },
+    "request_id": "req_011Cfzgy89KF4rfTZf8jJA3W"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:14:17] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzh2yPpGHfA7PBdFX2ci",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011Cfzh2yPpGHfA7PBdFX2ci"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:20:12] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzhVA8TkpPujjKh6bvE3",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011CfzhVA8TkpPujjKh6bvE3"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:22:46] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzhgUdk44syQ6urXZk4o",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011CfzhgUdk44syQ6urXZk4o"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:23:15] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzhiga9GQthQhUaWWnag",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011Cfzhiga9GQthQhUaWWnag"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:24:08] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzhnZFE88uMcBYwWSjLj",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011CfzhnZFE88uMcBYwWSjLj"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:25:07] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzhrska5LDC5qjUsWr1S",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011Cfzhrska5LDC5qjUsWr1S"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:25:34] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzhtvv8KjsUgjh9Detcx",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011Cfzhtvv8KjsUgjh9Detcx"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:26:11] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzhwf1VjgAuG4YPQKhQz",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011Cfzhwf1VjgAuG4YPQKhQz"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:26:39] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzhyhKhqjPWnsYwsiry5",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011CfzhyhKhqjPWnsYwsiry5"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:28:27] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzi7eSJHHxVd45hytz6P",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.0.content.0: Input should be an object"
+    },
+    "request_id": "req_011Cfzi7eSJHHxVd45hytz6P"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 20:28:44] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:28:44] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:46:47] [ERROR] [PROD-ONLY]: UnknownError | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NotFound"
+}
+[2026-10-13 20:46:47] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:46:47] [ERROR] [PROD-ONLY]: UnknownError | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NotFound"
+}
+[2026-10-13 20:46:50] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:46:50] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:48:01] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:48:01] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:49:07] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 20:49:07] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 21:01:33] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 21:01:33] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 21:02:41] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 21:02:41] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 21:03:13] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 21:03:13] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 21:05:42] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 21:05:42] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 21:10:56] [ERROR] [PROD-ONLY]: The specified key does not exist. | meta: {
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 404,
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "name": "NoSuchKey",
+  "Code": "NoSuchKey"
+}
+[2026-10-13 21:10:56] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 21:12:32] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzmUbHjBQu9ktEsaeqdt",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.2.content.0.type: Field required"
+    },
+    "request_id": "req_011CfzmUbHjBQu9ktEsaeqdt"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 21:12:55] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzmWL4VkX1zSVPy8ybd5",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.2.content.0.type: Field required"
+    },
+    "request_id": "req_011CfzmWL4VkX1zSVPy8ybd5"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 21:17:04] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011Cfzmpg7Vfn2TJHApJwA3W",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.2.content.0.type: Field required"
+    },
+    "request_id": "req_011Cfzmpg7Vfn2TJHApJwA3W"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 21:18:25] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzmvdwC4x32HkYKSvE8i",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.2.content.0.text.text: Input should be a valid string"
+    },
+    "request_id": "req_011CfzmvdwC4x32HkYKSvE8i"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 21:19:00] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "status": 400,
+  "headers": {},
+  "requestID": "req_011CfzmyBMNbok9diUjHCs7h",
+  "workspaceID": "wrkspc_011jd1zRPHoHLv4dPUn5cvH3",
+  "error": {
+    "type": "error",
+    "error": {
+      "type": "invalid_request_error",
+      "message": "messages.2.content.0.text.text: Input should be a valid string"
+    },
+    "request_id": "req_011CfzmyBMNbok9diUjHCs7h"
+  },
+  "type": "invalid_request_error"
+}
+[2026-10-13 22:14:27] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 22:24:17] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 22:42:50] [ERROR] [PROD-ONLY]: undefined
+[2026-10-13 22:44:46] [ERROR] [PROD-ONLY]: undefined
+[2026-10-14 12:18:42] [ERROR] [PROD-ONLY]: undefined
+[2026-10-14 12:54:00] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "code": "ER_BAD_FIELD_ERROR",
+  "errno": 1054,
+  "sqlState": "42S22",
+  "sqlMessage": "Unknown column 'session_name' in 'field list'",
+  "sql": "SELECT session_name, session_placeholder, id FROM session WHERE user_id = 9 ORDER BY updated_at"
+}
+[2026-10-14 12:54:01] [ERROR] [PROD-ONLY]: undefined | meta: {
+  "code": "ER_BAD_FIELD_ERROR",
+  "errno": 1054,
+  "sqlState": "42S22",
+  "sqlMessage": "Unknown column 'session_name' in 'field list'",
+  "sql": "SELECT session_name, session_placeholder, id FROM session WHERE user_id = 9 ORDER BY updated_at"
+}
+[2026-10-14 13:34:38] [ERROR] [PROD-ONLY]: undefined
+[2026-10-14 13:36:07] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "session_name is not defined",
+    "stack": "ReferenceError: session_name is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:45:19\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 13:37:56] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "session_crypted is not defined",
+    "stack": "ReferenceError: session_crypted is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:46:33\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 13:38:51] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "session_crypted is not defined",
+    "stack": "ReferenceError: session_crypted is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:46:33\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 13:40:01] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "session_crypted is not defined",
+    "stack": "ReferenceError: session_crypted is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:46:33\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 13:41:59] [ERROR] [PROD-ONLY]: /api/ask | meta: {
+  "succes": "No valid subscription or not enough credit.",
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 13:42:00] [ERROR] [PROD-ONLY]: /api/ask | meta: {
+  "succes": "No valid subscription or not enough credit.",
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 13:42:27] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "session_crypted is not defined",
+    "stack": "ReferenceError: session_crypted is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:46:33\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 13:43:14] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "session_crypted is not defined",
+    "stack": "ReferenceError: session_crypted is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:46:33\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  },
+  "userId": 9,
+  "ip": "192.168.56.1"
+}
+[2026-10-14 22:35:17] [ERROR] [PROD-ONLY]: /api/google-login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n{\n  data: {\n    email: \"daritomika@gmail.com\",\n    username: \"Tomika Dari\",\n    googleid: \"116776925162837475132\",\n+   password: String\n  }\n}\n\nArgument `password` is missing.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.users.create()` invocation:\n\n{\n  data: {\n    email: \"daritomika@gmail.com\",\n    username: \"Tomika Dari\",\n    googleid: \"116776925162837475132\",\n+   password: String\n  }\n}\n\nArgument `password` is missing.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:173:33\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:171:13"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:39:25] [ERROR] [PROD-ONLY]: /api/google-login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n{\n  data: {\n    email: \"daritomika@gmail.com\",\n    username: \"Tomika Dari\",\n    googleid: \"116776925162837475132\",\n+   password: String\n  }\n}\n\nArgument `password` is missing.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.users.create()` invocation:\n\n{\n  data: {\n    email: \"daritomika@gmail.com\",\n    username: \"Tomika Dari\",\n    googleid: \"116776925162837475132\",\n+   password: String\n  }\n}\n\nArgument `password` is missing.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:173:33\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:171:13"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:41:11] [ERROR] [PROD-ONLY]: /api/google-login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n{\n  data: {\n    email: \"daritomika@gmail.com\",\n    username: \"Tomika Dari\",\n    googleid: \"116776925162837475132\",\n+   password: String\n  }\n}\n\nArgument `password` is missing.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.users.create()` invocation:\n\n{\n  data: {\n    email: \"daritomika@gmail.com\",\n    username: \"Tomika Dari\",\n    googleid: \"116776925162837475132\",\n+   password: String\n  }\n}\n\nArgument `password` is missing.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:173:33\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:171:13"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:43:41] [ERROR] [PROD-ONLY]: /api/google-login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n{\n  where: {\n    id: {\n      id: 1,\n      username: \"Tomika Dari\",\n      email: \"daritomika@gmail.com\",\n      password: null,\n      newemail: null,\n      resetToken: null,\n      resetTokenExpiry: null,\n      emailCode: null,\n      emailCodeExpiry: null,\n      googleid: \"116776925162837475132\",\n      refresh_token: null,\n      instruction: null,\n      created_at: new Date(\"2026-10-14T20:43:41.000Z\"),\n      updated_at: new Date(\"2026-10-14T20:43:41.000Z\")\n    }\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  },\n  data: {\n    refresh_token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOnsiaWQiOjEsInVzZXJuYW1lIjoiVG9taWthIERhcmkiLCJlbWFpbCI6ImRhcml0b21pa2FAZ21haWwuY29tIiwicGFzc3dvcmQiOm51bGwsIm5ld2VtYWlsIjpudWxsLCJyZXNldFRva2VuIjpudWxsLCJyZXNldFRva2VuRXhwaXJ5IjpudWxsLCJlbWFpbENvZGUiOm51bGwsImVtYWlsQ29kZUV4cGlyeSI6bnVsbCwiZ29vZ2xlaWQiOiIxMTY3NzY5MjUxNjI4Mzc0NzUxMzIiLCJyZWZyZXNoX3Rva2VuIjpudWxsLCJpbnN0cnVjdGlvbiI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjYtMTAtMTRUMjA6NDM6NDEuMDAwWiIsInVwZGF0ZWRfYXQiOiIyMDI2LTEwLTE0VDIwOjQzOjQxLjAwMFoifSwiaWF0IjoxNzkyMDEwNjIxLCJleHAiOjE3OTI2MTU0MjF9.9rYMdPOydU-_ptazFb74twz6ruREcYsPq8S7VJoyzfE\"\n  }\n}\n\nArgument `id`: Invalid value provided. Expected Int, provided Object.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.users.update()` invocation:\n\n{\n  where: {\n    id: {\n      id: 1,\n      username: \"Tomika Dari\",\n      email: \"daritomika@gmail.com\",\n      password: null,\n      newemail: null,\n      resetToken: null,\n      resetTokenExpiry: null,\n      emailCode: null,\n      emailCodeExpiry: null,\n      googleid: \"116776925162837475132\",\n      refresh_token: null,\n      instruction: null,\n      created_at: new Date(\"2026-10-14T20:43:41.000Z\"),\n      updated_at: new Date(\"2026-10-14T20:43:41.000Z\")\n    }\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  },\n  data: {\n    refresh_token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOnsiaWQiOjEsInVzZXJuYW1lIjoiVG9taWthIERhcmkiLCJlbWFpbCI6ImRhcml0b21pa2FAZ21haWwuY29tIiwicGFzc3dvcmQiOm51bGwsIm5ld2VtYWlsIjpudWxsLCJyZXNldFRva2VuIjpudWxsLCJyZXNldFRva2VuRXhwaXJ5IjpudWxsLCJlbWFpbENvZGUiOm51bGwsImVtYWlsQ29kZUV4cGlyeSI6bnVsbCwiZ29vZ2xlaWQiOiIxMTY3NzY5MjUxNjI4Mzc0NzUxMzIiLCJyZWZyZXNoX3Rva2VuIjpudWxsLCJpbnN0cnVjdGlvbiI6bnVsbCwiY3JlYXRlZF9hdCI6IjIwMjYtMTAtMTRUMjA6NDM6NDEuMDAwWiIsInVwZGF0ZWRfYXQiOiIyMDI2LTEwLTE0VDIwOjQzOjQxLjAwMFoifSwiaWF0IjoxNzkyMDEwNjIxLCJleHAiOjE3OTI2MTU0MjF9.9rYMdPOydU-_ptazFb74twz6ruREcYsPq8S7VJoyzfE\"\n  }\n}\n\nArgument `id`: Invalid value provided. Expected Int, provided Object.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:209:9"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:45:10] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Subscription/subData.js:22:87"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:45:29] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Subscription/subData.js:22:87"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:46:24] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Subscription/subData.js:22:87"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:48:59] [ERROR] [PROD-ONLY]: /api/updateEmail | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n{\n  where: {\n    id: 1\n  },\n  data: {\n    emailCode: \"587088\",\n               ~~~~~~~~\n    emailCodeExpiry: 1792011539873\n  }\n}\n\nArgument `emailCode`: Invalid value provided. Expected Int, NullableIntFieldUpdateOperationsInput or Null, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.users.update()` invocation:\n\n{\n  where: {\n    id: 1\n  },\n  data: {\n    emailCode: \"587088\",\n               ~~~~~~~~\n    emailCodeExpiry: 1792011539873\n  }\n}\n\nArgument `emailCode`: Invalid value provided. Expected Int, NullableIntFieldUpdateOperationsInput or Null, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/update/updateEmail.js:62:9"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:51:03] [ERROR] [PROD-ONLY]: /api/forgot | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found.",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.update()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found.\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/update/forgot.js:44:7",
+    "code": "P2025"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:53:41] [ERROR] [PROD-ONLY]: /api/forgot | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found.",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.update()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found.\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/update/forgot.js:44:7",
+    "code": "P2025"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 22:54:42] [ERROR] [PROD-ONLY]: /api/forgot | meta: {
+  "error": {
+    "message": "Cannot set headers after they are sent to the client",
+    "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:642:11)\n    at ServerResponse.header (D:\\fullstack-projekt\\backend\\node_modules\\express\\lib\\response.js:685:10)\n    at ServerResponse.send (D:\\fullstack-projekt\\backend\\node_modules\\express\\lib\\response.js:141:14)\n    at ServerResponse.json (D:\\fullstack-projekt\\backend\\node_modules\\express\\lib\\response.js:249:15)\n    at file:///D:/fullstack-projekt/backend/update/forgot.js:69:23",
+    "code": "ERR_HTTP_HEADERS_SENT"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:15:16] [ERROR] [PROD-ONLY]: /api/forgot | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found.",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.update()` invocation:\n\n\nAn operation failed because it depends on one or more records that were required but not found. Record to update not found.\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/update/forgot.js:44:7",
+    "code": "P2025"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:16:51] [ERROR] [PROD-ONLY]: /api/forgot | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n\nThe provided value for the column is too long for the column's type. Column: resetToken",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.update()` invocation:\n\n\nThe provided value for the column is too long for the column's type. Column: resetToken\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/update/forgot.js:44:7",
+    "code": "P2000"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:18:40] [ERROR] [PROD-ONLY]: /api/google-login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nNull constraint violation on the fields: (`password`)",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nNull constraint violation on the fields: (`password`)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:173:33\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:171:13",
+    "code": "P2011"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:18:43] [ERROR] [PROD-ONLY]: /api/google-login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nNull constraint violation on the fields: (`password`)",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nNull constraint violation on the fields: (`password`)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:173:33\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:171:13",
+    "code": "P2011"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:20:06] [ERROR] [PROD-ONLY]: /api/reset-password | meta: {
+  "error": {
+    "message": "userId is not defined",
+    "stack": "ReferenceError: userId is not defined\n    at file:///D:/fullstack-projekt/backend/update/forgot.js:133:45"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:21:40] [ERROR] [PROD-ONLY]: /api/login | meta: {
+  "error": {
+    "message": "userTable is not defined",
+    "stack": "ReferenceError: userTable is not defined\n    at file:///D:/fullstack-projekt/backend/Login/login.js:84:37"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:22:44] [ERROR] [PROD-ONLY]: /api/login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1\n  },\n  data: {\n    refresh_token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc5MjAxMjk2NCwiZXhwIjoxNzkyNjE3NzY0fQ.VCD_8QsLy5nOtO_OUNiD7cub3aiWOxYfd5WJ16i2-EE\",\n    ~~~~~~~~~~~~~\n?   subscription_status?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   subscription_expiry?: BigInt | NullableBigIntFieldUpdateOperationsInput | Null,\n?   sub_id?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   renewable?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,\n?   customerId?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   remaining_credits?: Int | NullableIntFieldUpdateOperationsInput | Null,\n?   pending_sub_id?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   next_plan_id?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   nextPlan?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   processed_webhook?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   users?: usersUpdateOneRequiredWithoutSubscriptionsNestedInput\n  }\n}\n\nUnknown argument `refresh_token`. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1\n  },\n  data: {\n    refresh_token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc5MjAxMjk2NCwiZXhwIjoxNzkyNjE3NzY0fQ.VCD_8QsLy5nOtO_OUNiD7cub3aiWOxYfd5WJ16i2-EE\",\n    ~~~~~~~~~~~~~\n?   subscription_status?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   subscription_expiry?: BigInt | NullableBigIntFieldUpdateOperationsInput | Null,\n?   sub_id?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   renewable?: Boolean | NullableBoolFieldUpdateOperationsInput | Null,\n?   customerId?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   remaining_credits?: Int | NullableIntFieldUpdateOperationsInput | Null,\n?   pending_sub_id?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   next_plan_id?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   nextPlan?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   processed_webhook?: String | NullableStringFieldUpdateOperationsInput | Null,\n?   users?: usersUpdateOneRequiredWithoutSubscriptionsNestedInput\n  }\n}\n\nUnknown argument `refresh_token`. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:96:9"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:24:26] [ERROR] [PROD-ONLY]: /api/login | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n    ~~~~~~~\n?   id?: Int,\n?   username?: String,\n?   email?: String,\n?   AND?: usersWhereInput | usersWhereInput[],\n?   OR?: usersWhereInput[],\n?   NOT?: usersWhereInput | usersWhereInput[],\n?   password?: StringNullableFilter | String | Null,\n?   newemail?: StringNullableFilter | String | Null,\n?   resetToken?: StringNullableFilter | String | Null,\n?   resetTokenExpiry?: BigIntNullableFilter | BigInt | Null,\n?   emailCode?: IntNullableFilter | Int | Null,\n?   emailCodeExpiry?: BigIntNullableFilter | BigInt | Null,\n?   googleid?: StringNullableFilter | String | Null,\n?   refresh_token?: StringNullableFilter | String | Null,\n?   instruction?: StringNullableFilter | String | Null,\n?   created_at?: DateTimeNullableFilter | DateTime | Null,\n?   updated_at?: DateTimeNullableFilter | DateTime | Null,\n?   invoices?: InvoicesListRelationFilter,\n?   session?: SessionListRelationFilter,\n?   subscriptions?: SubscriptionsListRelationFilter\n  },\n  data: {\n    refresh_token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc5MjAxMzA2NiwiZXhwIjoxNzkyNjE3ODY2fQ.Vr-d7VKGXgkS2chQuKwiZnli_-RQC3rzBBv3_QH5nIE\"\n  }\n}\n\nUnknown argument `user_id`. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.users.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n    ~~~~~~~\n?   id?: Int,\n?   username?: String,\n?   email?: String,\n?   AND?: usersWhereInput | usersWhereInput[],\n?   OR?: usersWhereInput[],\n?   NOT?: usersWhereInput | usersWhereInput[],\n?   password?: StringNullableFilter | String | Null,\n?   newemail?: StringNullableFilter | String | Null,\n?   resetToken?: StringNullableFilter | String | Null,\n?   resetTokenExpiry?: BigIntNullableFilter | BigInt | Null,\n?   emailCode?: IntNullableFilter | Int | Null,\n?   emailCodeExpiry?: BigIntNullableFilter | BigInt | Null,\n?   googleid?: StringNullableFilter | String | Null,\n?   refresh_token?: StringNullableFilter | String | Null,\n?   instruction?: StringNullableFilter | String | Null,\n?   created_at?: DateTimeNullableFilter | DateTime | Null,\n?   updated_at?: DateTimeNullableFilter | DateTime | Null,\n?   invoices?: InvoicesListRelationFilter,\n?   session?: SessionListRelationFilter,\n?   subscriptions?: SubscriptionsListRelationFilter\n  },\n  data: {\n    refresh_token: \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsImlhdCI6MTc5MjAxMzA2NiwiZXhwIjoxNzkyNjE3ODY2fQ.Vr-d7VKGXgkS2chQuKwiZnli_-RQC3rzBBv3_QH5nIE\"\n  }\n}\n\nUnknown argument `user_id`. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/login.js:96:9"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:35:22] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async checkSubStatus (file:///D:/fullstack-projekt/backend/Subscription/subData.js:56:54)\n    at async file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:29:19"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:35:22] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.findUnique()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async checkSubStatus (file:///D:/fullstack-projekt/backend/Subscription/subData.js:56:54)\n    at async file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:29:19"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:35:28] [ERROR] [PROD-ONLY]: /api/create-subscription | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  },\n  data: {\n    pending_sub_id: \"I-HKPMBDKRX51W\"\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  },\n  data: {\n    pending_sub_id: \"I-HKPMBDKRX51W\"\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:262:9"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:35:38] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-HKPMBDKRX51W\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-HKPMBDKRX51W\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:431:13"
+  }
+}
+[2026-10-14 23:39:38] [ERROR] [PROD-ONLY]: /api/create-subscription | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:262:9"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:39:48] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:431:13"
+  }
+}
+[2026-10-14 23:40:16] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:431:13"
+  }
+}
+[2026-10-14 23:42:23] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-LAX5CVWDK75K\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:431:13"
+  }
+}
+[2026-10-14 23:43:02] [ERROR] [PROD-ONLY]: /api/create-subscription | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  },\n  data: {\n    pending_sub_id: \"I-C6K2K9RNLLJM\"\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1,\n?   id?: Int,\n?   AND?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   OR?: subscriptionsWhereInput[],\n?   NOT?: subscriptionsWhereInput | subscriptionsWhereInput[],\n?   subscription_status?: StringNullableFilter | String | Null,\n?   subscription_expiry?: BigIntNullableFilter | BigInt | Null,\n?   sub_id?: StringNullableFilter | String | Null,\n?   renewable?: BoolNullableFilter | Boolean | Null,\n?   customerId?: StringNullableFilter | String | Null,\n?   remaining_credits?: IntNullableFilter | Int | Null,\n?   pending_sub_id?: StringNullableFilter | String | Null,\n?   next_plan_id?: StringNullableFilter | String | Null,\n?   nextPlan?: StringNullableFilter | String | Null,\n?   processed_webhook?: StringNullableFilter | String | Null,\n?   users?: UsersRelationFilter | usersWhereInput\n  },\n  data: {\n    pending_sub_id: \"I-C6K2K9RNLLJM\"\n  }\n}\n\nArgument `where` of type subscriptionsWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:264:9"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:43:17] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-C6K2K9RNLLJM\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-C6K2K9RNLLJM\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:433:13"
+  }
+}
+[2026-10-14 23:43:48] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-C6K2K9RNLLJM\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-C6K2K9RNLLJM\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:433:13"
+  }
+}
+[2026-10-14 23:46:58] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-S9J9MDD40D6R\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-S9J9MDD40D6R\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:433:13"
+  }
+}
+[2026-10-14 23:47:33] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-S9J9MDD40D6R\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-S9J9MDD40D6R\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:433:13"
+  }
+}
+[2026-10-14 23:49:43] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-S9J9MDD40D6R\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  },\n  data: {\n    pending_sub_id: \"I-S9J9MDD40D6R\"\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:433:13"
+  }
+}
+[2026-10-14 23:51:10] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findFirst()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.findFirst()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:486:67"
+  }
+}
+[2026-10-14 23:51:43] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findFirst()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.findFirst()` invocation:\n\n{\n  where: {\n    user_id: \"1\"\n             ~~~\n  }\n}\n\nArgument `user_id`: Invalid value provided. Expected IntFilter or Int, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:486:67"
+  }
+}
+[2026-10-14 23:52:59] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1\n  },\n  data: {\n    remaining_credits: \"3000\",\n                       ~~~~~~\n    subscription_expiry: 20261114100000,\n    subscription_status: \"Basic\",\n    nextPlan: \"Basic\",\n    sub_id: \"I-E905G3BA859S\",\n    renewable: true,\n    processed_webhook: \"5TH62559BL470370E\"\n  }\n}\n\nArgument `remaining_credits`: Invalid value provided. Expected Int, NullableIntFieldUpdateOperationsInput or Null, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1\n  },\n  data: {\n    remaining_credits: \"3000\",\n                       ~~~~~~\n    subscription_expiry: 20261114100000,\n    subscription_status: \"Basic\",\n    nextPlan: \"Basic\",\n    sub_id: \"I-E905G3BA859S\",\n    renewable: true,\n    processed_webhook: \"5TH62559BL470370E\"\n  }\n}\n\nArgument `remaining_credits`: Invalid value provided. Expected Int, NullableIntFieldUpdateOperationsInput or Null, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:571:17"
+  }
+}
+[2026-10-14 23:53:36] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1\n  },\n  data: {\n    remaining_credits: \"3000\",\n                       ~~~~~~\n    subscription_expiry: 20261114100000,\n    subscription_status: \"Basic\",\n    nextPlan: \"Basic\",\n    sub_id: \"I-E905G3BA859S\",\n    renewable: true,\n    processed_webhook: \"5TH62559BL470370E\"\n  }\n}\n\nArgument `remaining_credits`: Invalid value provided. Expected Int, NullableIntFieldUpdateOperationsInput or Null, provided String.",
+    "stack": "PrismaClientValidationError: \nInvalid `prisma.subscriptions.update()` invocation:\n\n{\n  where: {\n    user_id: 1\n  },\n  data: {\n    remaining_credits: \"3000\",\n                       ~~~~~~\n    subscription_expiry: 20261114100000,\n    subscription_status: \"Basic\",\n    nextPlan: \"Basic\",\n    sub_id: \"I-E905G3BA859S\",\n    renewable: true,\n    processed_webhook: \"5TH62559BL470370E\"\n  }\n}\n\nArgument `remaining_credits`: Invalid value provided. Expected Int, NullableIntFieldUpdateOperationsInput or Null, provided String.\n    at wn (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:29:1363)\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6958)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Payment/payment.js:571:17"
+  }
+}
+[2026-10-14 23:54:56] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Do not know how to serialize a BigInt",
+    "stack": "TypeError: Do not know how to serialize a BigInt\n    at JSON.stringify (<anonymous>)\n    at formatLogContent (file:///D:/fullstack-projekt/backend/winstonown.js:21:46)\n    at Printf.template (file:///D:/fullstack-projekt/backend/winstonown.js:42:37)\n    at Printf.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\printf.js:11:26)\n    at Format.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\combine.js:20:24)\n    at File._write (D:\\fullstack-projekt\\backend\\node_modules\\winston-transport\\modern.js:91:33)\n    at doWrite (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Writable.write (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:54:56] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Do not know how to serialize a BigInt",
+    "stack": "TypeError: Do not know how to serialize a BigInt\n    at JSON.stringify (<anonymous>)\n    at formatLogContent (file:///D:/fullstack-projekt/backend/winstonown.js:21:46)\n    at Printf.template (file:///D:/fullstack-projekt/backend/winstonown.js:42:37)\n    at Printf.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\printf.js:11:26)\n    at Format.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\combine.js:20:24)\n    at File._write (D:\\fullstack-projekt\\backend\\node_modules\\winston-transport\\modern.js:91:33)\n    at doWrite (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Writable.write (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:54:59] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Do not know how to serialize a BigInt",
+    "stack": "TypeError: Do not know how to serialize a BigInt\n    at JSON.stringify (<anonymous>)\n    at formatLogContent (file:///D:/fullstack-projekt/backend/winstonown.js:21:46)\n    at Printf.template (file:///D:/fullstack-projekt/backend/winstonown.js:42:37)\n    at Printf.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\printf.js:11:26)\n    at Format.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\combine.js:20:24)\n    at File._write (D:\\fullstack-projekt\\backend\\node_modules\\winston-transport\\modern.js:91:33)\n    at doWrite (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Writable.write (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:55:03] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Do not know how to serialize a BigInt",
+    "stack": "TypeError: Do not know how to serialize a BigInt\n    at JSON.stringify (<anonymous>)\n    at formatLogContent (file:///D:/fullstack-projekt/backend/winstonown.js:21:46)\n    at Printf.template (file:///D:/fullstack-projekt/backend/winstonown.js:42:37)\n    at Printf.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\printf.js:11:26)\n    at Format.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\combine.js:20:24)\n    at File._write (D:\\fullstack-projekt\\backend\\node_modules\\winston-transport\\modern.js:91:33)\n    at doWrite (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Writable.write (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:55:03] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Do not know how to serialize a BigInt",
+    "stack": "TypeError: Do not know how to serialize a BigInt\n    at JSON.stringify (<anonymous>)\n    at formatLogContent (file:///D:/fullstack-projekt/backend/winstonown.js:21:46)\n    at Printf.template (file:///D:/fullstack-projekt/backend/winstonown.js:42:37)\n    at Printf.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\printf.js:11:26)\n    at Format.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\combine.js:20:24)\n    at File._write (D:\\fullstack-projekt\\backend\\node_modules\\winston-transport\\modern.js:91:33)\n    at doWrite (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Writable.write (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:55:08] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Do not know how to serialize a BigInt",
+    "stack": "TypeError: Do not know how to serialize a BigInt\n    at JSON.stringify (<anonymous>)\n    at formatLogContent (file:///D:/fullstack-projekt/backend/winstonown.js:21:46)\n    at Printf.template (file:///D:/fullstack-projekt/backend/winstonown.js:42:37)\n    at Printf.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\printf.js:11:26)\n    at Format.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\combine.js:20:24)\n    at File._write (D:\\fullstack-projekt\\backend\\node_modules\\winston-transport\\modern.js:91:33)\n    at doWrite (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Writable.write (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-14 23:55:22] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Do not know how to serialize a BigInt",
+    "stack": "TypeError: Do not know how to serialize a BigInt\n    at JSON.stringify (<anonymous>)\n    at formatLogContent (file:///D:/fullstack-projekt/backend/winstonown.js:21:46)\n    at Printf.template (file:///D:/fullstack-projekt/backend/winstonown.js:42:37)\n    at Printf.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\printf.js:11:26)\n    at Format.transform (D:\\fullstack-projekt\\backend\\node_modules\\logform\\combine.js:20:24)\n    at File._write (D:\\fullstack-projekt\\backend\\node_modules\\winston-transport\\modern.js:91:33)\n    at doWrite (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:390:139)\n    at writeOrBuffer (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:381:5)\n    at Writable.write (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_writable.js:302:11)\n    at DerivedLogger.ondata (D:\\fullstack-projekt\\backend\\node_modules\\readable-stream\\lib\\_stream_readable.js:629:20)"
+  },
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 12:17:45] [ERROR] [PROD-ONLY]: undefined
+[2026-10-15 12:19:46] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "No value provided for input HTTP label: Key.",
+    "stack": "Error: No value provided for input HTTP label: Key.\n    at S3RestXmlProtocol.serializeRequest (D:\\fullstack-projekt\\backend\\node_modules\\@smithy\\core\\dist-cjs\\submodules\\protocols\\index.js:275:31)\n    at async S3RestXmlProtocol.serializeRequest (D:\\fullstack-projekt\\backend\\node_modules\\@aws-sdk\\core\\dist-cjs\\submodules\\protocols\\index.js:2793:25)\n    at async S3RestXmlProtocol.serializeRequest (D:\\fullstack-projekt\\backend\\node_modules\\@aws-sdk\\middleware-sdk-s3\\dist-cjs\\submodules\\s3\\index.js:496:25)\n    at async D:\\fullstack-projekt\\backend\\node_modules\\@smithy\\core\\dist-cjs\\submodules\\schema\\index.js:87:21"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-15 12:36:53] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "reply is not defined",
+    "stack": "ReferenceError: reply is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:103:17"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-15 12:37:16] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "iter is not defined",
+    "stack": "ReferenceError: iter is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:85:38\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:83:36"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-15 12:37:41] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "iter is not defined",
+    "stack": "ReferenceError: iter is not defined\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:85:38\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:83:36"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-15 12:45:26] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "session_crypted": "f91e798c-da65-4980-b191-344ac7ee188a",
+  "limit": "10",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 12:45:26] [ERROR] [PROD-ONLY]: /api/getMessages succes reply generated | meta: {
+  "reply_lenght": 3,
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 13:19:03] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": {
+    "message": "logger is not defined",
+    "stack": "ReferenceError: logger is not defined\n    at getDownloadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/filefunctions.js:157:5)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:92:16\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:90:51\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:88:36"
+  },
+  "ip": "192.168.1.50",
+  "userId": 1
+}
+[2026-10-15 13:19:30] [ERROR] [PROD-ONLY]: /api/getDownloadUrl-function | meta: {
+  "error": {
+    "message": "GetObjectCommand is not defined",
+    "stack": "ReferenceError: GetObjectCommand is not defined\n    at getDownloadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/filefunctions.js:145:21)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:92:16\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:90:51\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:88:36"
+  }
+}
+[2026-10-15 13:19:59] [ERROR] [PROD-ONLY]: /api/getDownloadUrl-function | meta: {
+  "error": {
+    "message": "r2 is not defined",
+    "stack": "ReferenceError: r2 is not defined\n    at getDownloadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/filefunctions.js:154:36)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:92:16\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:90:51\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:88:36"
+  }
+}
+[2026-10-15 13:32:18] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "20",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 13:35:29] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "20",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 14:02:13] [ERROR] [PROD-ONLY]: Invalid parameter type for instruct | meta: {
+  "type": "string",
+  "ip": "192.168.1.50",
+  "userId": 1
+}
+[2026-10-15 14:05:08] [ERROR] [PROD-ONLY]: Invalid parameter type for instruct | meta: {
+  "type": "string",
+  "ip": "192.168.1.50",
+  "userId": 1
+}
+[2026-10-15 15:08:31] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "75",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 15:08:36] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "20",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 15:34:19] [ERROR] [PROD-ONLY]: /api/getUploadUrl-function | meta: {
+  "error": {
+    "message": "File size exceeds the maximum limit of 5 MB",
+    "stack": "Error: File size exceeds the maximum limit of 5 MB\n    at getUploadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/filefunctions.js:207:13)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:110:20\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:107:26\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/validator.js:25:13\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/rateLimiter.js:57:13"
+  }
+}
+[2026-10-15 15:34:21] [ERROR] [PROD-ONLY]: /api/getUploadUrl-function | meta: {
+  "error": {
+    "message": "File size exceeds the maximum limit of 5 MB",
+    "stack": "Error: File size exceeds the maximum limit of 5 MB\n    at getUploadUrl (file:///D:/fullstack-projekt/backend/Aicomunication/filefunctions.js:207:13)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:110:20\n    at Array.map (<anonymous>)\n    at file:///D:/fullstack-projekt/backend/Aicomunication/antrophicapi.js:107:26\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/validator.js:25:13\n    at Layer.handleRequest (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (D:\\fullstack-projekt\\backend\\node_modules\\router\\lib\\route.js:157:13)\n    at file:///D:/fullstack-projekt/backend/Midleware/rateLimiter.js:57:13"
+  }
+}
+[2026-10-15 20:39:56] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "64",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 20:40:56] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "20",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 20:47:17] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "20",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 21:48:28] [ERROR] [PROD-ONLY]: /api/getMessages | meta: {
+  "error": "Wrong parameters",
+  "limit": "24",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 23:21:58] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 23:21:58] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-15 23:45:39] [ERROR] [PROD-ONLY]: /api/setInstruction | meta: {
+  "error": "Bad request",
+  "userId": 1,
+  "ip": "192.168.1.50"
+}
+[2026-10-19 20:10:10] [ERROR] [PROD-ONLY]: /api/login | meta: {
+  "error": {
+    "message": "data and hash arguments required",
+    "stack": "Error: data and hash arguments required\n    at Object.compare (D:\\fullstack-projekt\\backend\\node_modules\\bcrypt\\bcrypt.js:204:17)\n    at D:\\fullstack-projekt\\backend\\node_modules\\bcrypt\\promises.js:26:12\n    at new Promise (<anonymous>)\n    at Object.promise (D:\\fullstack-projekt\\backend\\node_modules\\bcrypt\\promises.js:17:12)\n    at Object.compare (D:\\fullstack-projekt\\backend\\node_modules\\bcrypt\\bcrypt.js:200:25)\n    at file:///D:/fullstack-projekt/backend/Login/login.js:69:38"
+  },
+  "ip": "192.168.1.50"
+}
+[2026-10-20 09:03:02] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-20 09:03:02] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-20 09:03:02] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-20 09:03:02] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-20 09:03:07] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-20 09:03:07] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-20 14:51:18] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:52:37] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:52:58] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:53:16] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:53:34] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:53:44] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "userId is not defined",
+    "stack": "ReferenceError: userId is not defined\n    at file:///D:/fullstack-projekt/backend/Login/register.js:86:47"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:54:44] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:55:26] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:57:25] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 14:57:34] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `email`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-20 15:13:22] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-21 11:54:47] [ERROR] [PROD-ONLY]: /api/register | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.create()` invocation:\n\n\nUnique constraint failed on the constraint: `username`\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:64:29\n    at async Proxy._transactionWithCallback (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:8000)\n    at async file:///D:/fullstack-projekt/backend/Login/register.js:62:9",
+    "code": "P2002"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-25 21:43:41] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Subscription/subData.js:26:13"
+  },
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-25 21:43:48] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Subscription/subData.js:26:13"
+  },
+  "userId": 4,
+  "ip": "192.168.1.50"
+}
+[2026-10-26 10:26:18] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Subscription/subData.js:26:13"
+  },
+  "userId": 21,
+  "ip": "192.168.1.50"
+}
+[2026-10-26 10:26:19] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Subscription/subData.js:26:13"
+  },
+  "userId": 21,
+  "ip": "192.168.1.50"
+}
+[2026-10-26 12:38:36] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 12:38:37] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 12:38:37] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 12:38:38] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 12:38:38] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 12:38:38] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 12:38:38] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 12:38:39] [ERROR] [PROD-ONLY]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:23] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:23] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:23] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:23] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:23] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:23] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:26] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-26 16:24:26] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}

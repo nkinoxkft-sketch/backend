@@ -1,0 +1,121 @@
+[90m[12:31:44][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[12:31:44][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[12:31:47][0m [31m[1m[login with google][0m From databse id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[12:31:47][0m [31m[1m[login with google][0m id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[12:41:07][0m [31m[1m[Create Invoice][0m -------------Server log create invoice------------- 
+[90m[12:41:07][0m [31m[1m[Create Invoice][0m userId: 1, currency: USD, grossAmount: 11.99, netAmount: 9.44
+      vatAmount: 2.55, vatRate: 27, payerName: John DoeskipKYC, country: HU, zip: 1051, city: Budapest, street: Erzsebet Ter 9-10,
+      payer_id: 7WMAPR2LNZRTY    
+[90m[12:41:07][0m [31m[1m[Create Invoice][0m -------------Server log create invoice end------------- 
+[90m[12:41:07][0m [34m[1m[payment billing activated][0m Invoice xml: <?xml version="1.0" encoding="UTF-8"?>
+    <xmlszamla xmlns="http://www.szamlazz.hu/xmlszamla" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.szamlazz.hu/xmlszamla https://www.szamlazz.hu/szamla/docs/xsds/agent/xmlszamla.xsd">
+      <beallitasok>
+        <szamlaagentkulcs>45a8qpcu7522va33wbpf7522vanxr93a7522vabusv</szamlaagentkulcs>
+        <eszamla>true</eszamla>
+        <szamlaLetoltes>true</szamlaLetoltes>
+        <valaszVerzio>1</valaszVerzio>
+      </beallitasok>
+
+      <fejlec>
+        <keltDatum>2026-10-26</keltDatum>
+        <teljesitesDatum>2026-10-26</teljesitesDatum>
+        <fizetesiHataridoDatum>2026-10-26</fizetesiHataridoDatum>
+        <fizmod>PayPal</fizmod>
+        <penznem>USD</penznem>
+        <szamlaNyelve>hu</szamlaNyelve>
+        <megjegyzes>PayPal tranzakció: I-L34YUK17WA04</megjegyzes>
+        <arfolyamBank>MNB</arfolyamBank>
+        <arfolyam>0.0</arfolyam>
+        <rendelesSzam>I-L34YUK17WA04</rendelesSzam>
+        <dijbekero>false</dijbekero>
+        <szamlaszamElotag></szamlaszamElotag>
+        <fizetve>true</fizetve>
+      </fejlec>
+
+      <elado></elado>
+
+      <vevo>
+        <nev>John DoeskipKYC</nev>
+        <orszag>HU</orszag>
+        <irsz>1051</irsz>
+        <telepules>Budapest</telepules>
+        <cim>Erzsebet Ter 9-10</cim>
+        <email>sb-agaqb52558596@personal.example.com</email>
+        <sendEmail>true</sendEmail>
+        <adoszam>undefined</adoszam>
+      </vevo>
+
+      <tetelek>
+        <tetel>
+          <megnevezes>Pro</megnevezes>
+          <mennyiseg>1.0</mennyiseg>
+          <mennyisegiEgyseg>db</mennyisegiEgyseg>
+          <nettoEgysegar>9.44</nettoEgysegar>
+          <afakulcs>27</afakulcs>
+          <nettoErtek>9.44</nettoErtek>
+          <afaErtek>2.55</afaErtek>
+          <bruttoErtek>11.99</bruttoErtek>
+        </tetel>
+      </tetelek>
+    </xmlszamla> 
+  
+  
+ [90m[12:42:14][0m [31m[1m[Create Invoice][0m -------------Server log create invoice------------- 
+[90m[12:42:14][0m [31m[1m[Create Invoice][0m userId: 1, currency: USD, grossAmount: 11.99, netAmount: 9.44
+      vatAmount: 2.55, vatRate: 27, payerName: John DoeskipKYC, country: HU, zip: 1051, city: Budapest, street: Erzsebet Ter 9-10,
+      payer_id: 7WMAPR2LNZRTY    
+[90m[12:42:14][0m [31m[1m[Create Invoice][0m -------------Server log create invoice end------------- 
+[90m[12:42:14][0m [34m[1m[payment billing activated][0m Invoice xml: <?xml version="1.0" encoding="UTF-8"?>
+    <xmlszamla xmlns="http://www.szamlazz.hu/xmlszamla" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.szamlazz.hu/xmlszamla https://www.szamlazz.hu/szamla/docs/xsds/agent/xmlszamla.xsd">
+      <beallitasok>
+        <szamlaagentkulcs>45a8qpcu7522va33wbpf7522vanxr93a7522vabusv</szamlaagentkulcs>
+        <eszamla>true</eszamla>
+        <szamlaLetoltes>true</szamlaLetoltes>
+        <valaszVerzio>1</valaszVerzio>
+      </beallitasok>
+
+      <fejlec>
+        <keltDatum>2026-10-26</keltDatum>
+        <teljesitesDatum>2026-10-26</teljesitesDatum>
+        <fizetesiHataridoDatum>2026-10-26</fizetesiHataridoDatum>
+        <fizmod>PayPal</fizmod>
+        <penznem>USD</penznem>
+        <szamlaNyelve>hu</szamlaNyelve>
+        <megjegyzes>PayPal tranzakció: I-XY8WXY3CURT3</megjegyzes>
+        <arfolyamBank>MNB</arfolyamBank>
+        <arfolyam>0.0</arfolyam>
+        <rendelesSzam>I-XY8WXY3CURT3</rendelesSzam>
+        <dijbekero>false</dijbekero>
+        <szamlaszamElotag></szamlaszamElotag>
+        <fizetve>true</fizetve>
+      </fejlec>
+
+      <elado></elado>
+
+      <vevo>
+        <nev>John DoeskipKYC</nev>
+        <orszag>HU</orszag>
+        <irsz>1051</irsz>
+        <telepules>Budapest</telepules>
+        <cim>Erzsebet Ter 9-10</cim>
+        <email>sb-agaqb52558596@personal.example.com</email>
+        <sendEmail>true</sendEmail>
+        <adoszam>undefined</adoszam>
+      </vevo>
+
+      <tetelek>
+        <tetel>
+          <megnevezes>Pro</megnevezes>
+          <mennyiseg>1.0</mennyiseg>
+          <mennyisegiEgyseg>db</mennyisegiEgyseg>
+          <nettoEgysegar>9.44</nettoEgysegar>
+          <afakulcs>27</afakulcs>
+          <nettoErtek>9.44</nettoErtek>
+          <afaErtek>2.55</afaErtek>
+          <bruttoErtek>11.99</bruttoErtek>
+        </tetel>
+      </tetelek>
+    </xmlszamla> 
+  
+  
+ 
