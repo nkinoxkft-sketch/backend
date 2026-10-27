@@ -32,12 +32,35 @@ BigInt.prototype.toJSON = function() {
 
 };
 
+
 const app = express();
 
+const allowedOrigins = [
+  'https://cloudifytalk.com',
+  'https://www.cloudifytalk.com'
+];
+
+// CORS beállítása rögtön az elején
+app.use(cors({
+  origin: function (origin, callback) {
+    // Engedjük a kérést, ha benne van a listában, vagy ha nincs origin (pl. szerver-szerver hívás)
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('A CORS policy blokkolta ezt a forrást.'));
+    }
+  },
+  credentials: true, // Sütikhez és Authorization fejlécekhez kötelező
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
+}));
+
+// Ez kötelező, ha komplex kéréseket (POST, JSON data) küldesz!
+app.options(/.*/, cors());
 //Egy beépített Express middleware (köztes réteg).
 //  A beérkező HTTP kérések nyers szöveges törzsét automatikusan átalakítja JavaScript objektummá,
 //  így a végpontjaidon (pl. bejelentkezésnél) kényelmesen eléred a küldött adatokat a req.body.email vagy
 app.use(express.json());
+app.set('trust proxy', 1); // Express beállítása // elveszett ip cimek miatt
 
 //A res.setHeader('Cross-Origin-Opener-Policy', 'same-origin-allow-popups');
 // Ez a biztonsági fejléc (COOP) létfontosságú az OAuth (pl. Google bejelentkezés) 
@@ -87,19 +110,7 @@ process.on('SIGTERM', async () => {
     });
 });
 
-const corsOptions = {
-    origin: [
-        'http://www.cloudifytalk.com',
-        'http://cloudifytalk.com',
-        'http://localhost:5173',  
-        'http://192.168.1.50:5173',
-        'http://172.20.10.4:5173'       
-    ],
-    optionsSuccessStatus: 200,
-    credentials: true
-};
-app.set('trust proxy', 1); // Express beállítása // elveszett ip cimek miatt
-app.use(cors(corsOptions));
+
 app.use(helmet({
     crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
   }));
