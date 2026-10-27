@@ -19,22 +19,46 @@ import getVatRate from './Payment/invoice.js'
 import deleteAcc from './update/delete.js';
 import { prisma } from './database.js';
 
-
+//A BigInt.prototype.toJSON = function() { return this.toString(); };
+// A JavaScript beépített JSON.stringify() függvénye alapértelmezetten
+//  nem tudja kezelni a BigInt (nagyon nagy egész szám) típust, és egy 
+// TypeError-t dobna. Mivel a Prisma ORM (amit a TiDB-vel is használsz) 
+// a nagy számokat BigInt típusként adja vissza az adatbázisból, ez a kód 
+// felülírja az alapértelmezett viselkedést: megmondja a JavaScriptnek, 
+// hogy mielőtt JSON-t csinálna belőle, egyszerű szöveggé (string) alakítsa a számot. 
+// Így hiba nélkül át tudod küldeni az adatokat a frontendnek. 
 BigInt.prototype.toJSON = function() {
     return this.toString(); 
 
 };
 
 const app = express();
+
+//Egy beépített Express middleware (köztes réteg).
+//  A beérkező HTTP kérések nyers szöveges törzsét automatikusan átalakítja JavaScript objektummá,
+//  így a végpontjaidon (pl. bejelentkezésnél) kényelmesen eléred a küldött adatokat a req.body.email vagy
 app.use(express.json());
 
+//A res.setHeader('Cross-Origin-Opener-Policy', 'same-origin-allow-popups');
+// Ez a biztonsági fejléc (COOP) létfontosságú az OAuth (pl. Google bejelentkezés) 
+// vagy külső fizetési kapuk (PayPal) működéséhez. Lehetővé teszi, hogy a weboldaladból
+//  megnyíló biztonságos felugró (popup) ablakok a művelet végén vissza tudjanak kommunikálni a főoldaladhoz 
+// (pl. átadják a sikeres fizetés vagy bejelentkezés tokenjét), ahelyett, hogy a böngésző memóriaszinten teljesen elszigetelné őket.
 
+//A res.setHeader('Cross-Origin-Embedder-Policy', 'unsafe-none'); Ez a COEP fejléc leglazább, alapértelmezett állapota. 
+// Azt mondja meg a böngészőnek, hogy a weboldalad betölthet külső, harmadik féltől származó erőforrásokat 
+// (például képeket egy CDN-ről vagy külső szkripteket) anélkül, hogy azok szigorú CORS jóváhagyást követelnének meg.
 app.use((req, res, next) => {
   res.setHeader('Cross-Origin-Opener-Policy', 'same-origin-allow-popups');
   res.setHeader('Cross-Origin-Embedder-Policy', 'unsafe-none');
   next();
 });
 
+
+//A app.use(cookieParser()); A cookie-parser csomag middleware-je. 
+// Amikor a böngésző elküldi a kérést, a sütiket egyetlen hosszú, nehezen olvasható szövegsorban (a Cookie fejlécben) küldi át.
+//  Ez a sor ezt a szöveget automatikusan szétszedi, és berakja a req.cookies objektumba (például req.cookies.refresh_token),
+//  hogy azonnal és könnyen tudd használni a hitelesítés során.
 app.use(cookieParser());
 
 process.on('uncaughtException', (err) => {
@@ -72,7 +96,7 @@ const corsOptions = {
     optionsSuccessStatus: 200,
     credentials: true
 };
-
+app.set('trust proxy', 1); // Express beállítása // elveszett ip cimek miatt
 app.use(cors(corsOptions));
 app.use(helmet({
     crossOriginOpenerPolicy: { policy: "same-origin-allow-popups" },
@@ -100,17 +124,6 @@ app.use(express.json({ limit: '2mb' }));
 app.use(express.urlencoded({ limit: '1mb' }));
 
 getVatRate('FI');
-
-app.get('/api/getData', verify.verifyToken, (req, res) => {
-  
-  console.log("A kérést küldő felhasználó adatai:", req.user);
-
-  res.status(200).json({ 
-    message: "Sikeresen bejutottál a védett zónába!",
-    userData: req.user
-  });
-  
-});
 
 
 
@@ -172,11 +185,6 @@ app.get('/api/getDataPub', (req, res) => {
 
 
 });
-
-   //const [row] = await pool.query('SELECT * FROM users WHERE id = ?', [id]);
-
-    //return { id: row[0].id, username: row[0].username, email: row[0].email, subscription: row[0].subscription, emailCode: row[0].emailCode, emailCodeExpiry: row[0].emailCodeExpiry, newemail: row[0].newemail };
-
 
 app.get('/api/getUserData', verify.verifyToken, async (req, res) => {
 

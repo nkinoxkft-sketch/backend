@@ -214,7 +214,7 @@ router.post('/api/google-login', strictJsonLimit, loginLimiter, async (req, res)
         );
 
         await prisma.users.update( { where: {id: id}, data: {refresh_token: refreshToken}} )
-
+        console.log(process.env.NODE_ENV === 'production', process.env.NODE_ENV)
         res.cookie('refreshToken', refreshToken, {
             httpOnly: true,
             secure: process.env.NODE_ENV === 'production',

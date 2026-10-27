@@ -1304,3 +1304,275 @@
   },
   "ip": "192.168.56.1"
 }
+[2026-10-27 14:33:42] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:42] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:42] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:43] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:44] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:45] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:45] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:33:45] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. ",
+    "stack": "Error: You have exceeded the maximum rate limitation allowed on your subscription plan. Please refer to the \"Rate Limits\" section of the API Documentation for details. \n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:45:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async getVatRate (file:///D:/fullstack-projekt/backend/Payment/invoice.js:85:5)"
+  }
+}
+[2026-10-27 14:40:51] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "Cannot use 'in' operator to search for 'nx' in EX",
+    "stack": "TypeError: Cannot use 'in' operator to search for 'nx' in EX\n    at new SetCommand (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:2683:16)\n    at set (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4035:42)\n    at file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4575:13\n    at AutoPipelineExecutor.withAutoPipeline (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4612:5)\n    at Proxy.<anonymous> (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4573:46)\n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:58:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  }
+}
+[2026-10-27 14:44:00] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "Cannot use 'in' operator to search for 'nx' in EX",
+    "stack": "TypeError: Cannot use 'in' operator to search for 'nx' in EX\n    at new SetCommand (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:2683:16)\n    at set (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4035:42)\n    at file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4575:13\n    at AutoPipelineExecutor.withAutoPipeline (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4612:5)\n    at Proxy.<anonymous> (file:///D:/fullstack-projekt/backend/node_modules/@upstash/redis/chunk-4WQYU7T6.mjs:4573:46)\n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:58:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)"
+  }
+}
+[2026-10-27 14:47:54] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "Vat_Rates is not defined",
+    "stack": "ReferenceError: Vat_Rates is not defined\n    at refreshVatRatesCache (file:///D:/fullstack-projekt/backend/Payment/invoice.js:43:44)\n    at file:///D:/fullstack-projekt/backend/server.js:126:1\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:633:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)"
+  }
+}
+[2026-10-27 15:05:46] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Subscription/subData.js:26:13"
+  },
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-27 15:05:48] [ERROR] [PROD-ONLY]: /api/getSubData | meta: {
+  "error": {
+    "message": "Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'subscription_status' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Subscription/subData.js:26:13"
+  },
+  "userId": 1,
+  "ip": "192.168.56.1"
+}
+[2026-10-27 15:05:59] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:458:21"
+  }
+}
+[2026-10-27 15:10:21] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:458:21"
+  }
+}
+[2026-10-27 15:12:48] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:458:21"
+  }
+}
+[2026-10-27 15:15:05] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:458:21"
+  }
+}
+[2026-10-27 15:17:48] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:458:21"
+  }
+}
+[2026-10-27 15:23:03] [ERROR] [PROD-ONLY]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'sub_id' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:458:21"
+  }
+}
+[2026-10-27 17:21:17] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-27 17:21:17] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-27 17:21:19] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}
+[2026-10-27 17:21:19] [ERROR] [PROD-ONLY]: Midleware: rateLimiter | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  },
+  "ip": "192.168.56.1"
+}

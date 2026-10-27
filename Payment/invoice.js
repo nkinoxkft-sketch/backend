@@ -3,6 +3,8 @@ import axios from'axios';
 import FormData from'form-data';
 import fs from 'fs';
 import { prisma } from '../database.js';
+import logger from '../winstonown.js';
+import redis from '../redishconfig.js';
 
 const serverlog = serverLog('invoice')
 
@@ -22,20 +24,15 @@ let cached_vat;
 
 const API_KEY = process.env.VATLAYER_API_KEY || '9f5acdbc472e6bf6c82f88e0ea2548c9';
 
-// 1. Memóriabeli tároló a kulcsoknak
-const vatCache = new Map();
-
-// Utolsó sikeres frissítés időpontja
-let lastFetchedAt = 0;
-
-// Cache érvényességi ideje: 24 óra milliszekundumban
-const CACHE_TTL_MS = 24 * 60 * 60 * 1000;
-
 /**
  * Frissíti a cache-t a vatlayer API-ból és for ciklussal feldolgozza
  */
-export async function refreshVatRatesCache() {
+export default async function refreshVatRatesCache() {
+
   try {
+
+    const vatCache = new Map();
+
     console.log('🔄 Áfakulcsok frissítése a vatlayer-ről...');
     const response = await fetch(`http://apilayer.net/api/rate_list?access_key=${API_KEY}`);
     const data = await response.json();
@@ -44,54 +41,62 @@ export async function refreshVatRatesCache() {
       throw new Error(data.error?.info || 'Nem sikerült lekérni az áfakulcsokat');
     }
 
-    // 2. Végigmegyünk az adatokon ciklussal és feltöltjük a cache-t
-    // data.rates formátuma: { "HU": { standard_rate: 27, ... }, "DE": { ... } }
     for (const [countryCode, info] of Object.entries(data.rates)) {
       vatCache.set(countryCode.toUpperCase(), {
         countryName: info.country_name,
         standardRate: info.standard_rate,
-        reducedRates: info.reduced_rates || []
+        //reducedRates: info.reduced_rates || []
       });
     }
 
-    lastFetchedAt = Date.now();
+    const vatObject = Object.fromEntries(vatCache);
+
+    await redis.set('Vat_Rates', JSON.stringify(vatObject), { ex: 86400 });
+
     console.log(`✅ Áfakulcsok cache-elve: ${vatCache.size} ország mentve.`);
 
+    return vatObject;
+
   } catch (err) {
-    console.error('❌ Hiba az áfakulcs cache frissítésekor:', err.message);
+
+      logger.error('update vat numbers', {
+            error: {
+                message: err.message,
+                stack: err.stack,
+                code: err.code
+            },
+
+      });
   }
 }
 
-/**
- * Lekéri az adott ország áfakulcsát a memóriából (ha lejárt, automatikusan frissít)
- */
-export default async function getVatRate(countryCode) {
 
-  if (!countryCode) return 0;
-  const code = countryCode.trim().toUpperCase();
+export async function parseInclusiveTax(grossStr, countryCode, isCompanyWithVat = false) {
 
-  // Ha üres a cache vagy lejárt a 24 óra, frissítünk
-  const isExpired = Date.now() - lastFetchedAt > CACHE_TTL_MS;
-  if (vatCache.size === 0 || isExpired) {
-    await refreshVatRatesCache();
+  
+  const vat_from_redis = await redis.get("Vat_Rates");
+
+  let vatCache;
+
+  if (vat_from_redis !== null) {
+
+    vatCache = typeof vat_from_redis === 'string' ? JSON.parse(vat_from_redis) : vat_from_redis;
+    
+  }
+  else{
+
+    vatCache = await refreshVatRatesCache();
+
   }
 
-  // Ha a vatlayer-ben benne van, visszaadjuk a standard_rate-et
-  if (vatCache.has(code)) {
-    console.log(vatCache.get(code).standardRate)
-    return vatCache.get(code).standardRate;
-  }
-
-  // Fallback (ha EU-n kívüli ország vagy ismeretlen)
-  return 0;
-}
-
-export function parseInclusiveTax(grossStr, countryCode, isCompanyWithVat = false) {
+  console.log(vatCache[countryCode].standardRate);
+  console.log(countryCode)
+  console.log( typeof countryCode);
   const gross = parseFloat(grossStr);
   const country = (countryCode || '').toUpperCase();
 
   // 1. EU-n KÍVÜLI VEVŐ (pl. US, CA, GB) -> 0% áfa, területi hatályon kívül
-  if (vatCache.get(countryCode).standardRate === 0) {
+  if (vatCache[countryCode].standardRate === 0) {
     return {
       vatRate: 'TEHK',
       netAmount: gross.toFixed(2),
@@ -126,7 +131,7 @@ export function parseInclusiveTax(grossStr, countryCode, isCompanyWithVat = fals
   }
 
   // 4. EU-S MAGÁNSZEMÉLY (OSS) -> Célország áfakulcsa
-  const rate = vatCache.get(countryCode).standardRate;
+  const rate = vatCache[countryCode].standardRate;
   const net = gross / (1 + rate / 100);
   const vat = gross - net;
 
@@ -184,7 +189,7 @@ export const  buildSzamlazzXmlFromPaypal = async (paypalData, vat, desc, userid)
     }
 
 
-    const data = parseInclusiveTax(paypalData.billing_info?.last_payment?.amount.value, country, isCompany);
+    const data = await parseInclusiveTax(paypalData.billing_info?.last_payment?.amount.value, country, isCompany);
 
     const grossAmount = data.grossAmount
     const vatRate = data.vatRate;

@@ -27,6 +27,7 @@ router.get('/api/getSessions', strictJsonLimit, verify.verifyToken, limiter, asy
   const userId = req.user?.userId;
   const ip = req.ip;
   const requestId = req.id;
+  const limit = req.query?.limit;
 
   try{
     
@@ -40,11 +41,15 @@ router.get('/api/getSessions', strictJsonLimit, verify.verifyToken, limiter, asy
 
     }
 
-    const reply = await prisma.session.findMany({ where: {user_id: userId}, select: { id: true, session_crypted: true, session_placeholder: true} });
+    const takeAmount = 20;
+    const parsedLimit = Number.parseInt(limit) || takeAmount;
+    const offset = Math.max(0, parsedLimit - takeAmount); 
+
+    const reply = await prisma.session.findMany({ where: {user_id: userId}, select: { id: true, session_crypted: true, session_placeholder: true}, orderBy: { updated_at: 'desc'}, take: takeAmount, skip: offset });
 
     logger.info('/api/getSessions', { message: "reply sessions generated", userId: userId, ip: ip, requestId: requestId, sessions_lenght: reply.length  } );
 
-    res.status(200).json({ 
+    res.status(200).json({  
 
       sessions: reply
     

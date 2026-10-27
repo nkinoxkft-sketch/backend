@@ -118,4 +118,258 @@
     </xmlszamla> 
   
   
+ [90m[19:54:31][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[19:54:32][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[19:54:32][0m [31m[1m[login with google][0m From databse id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[19:54:32][0m [31m[1m[login with google][0m id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[19:55:19][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[19:55:19][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[19:55:19][0m [31m[1m[login with google][0m From databse id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[19:55:19][0m [31m[1m[login with google][0m id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[19:55:48][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[19:55:49][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[19:55:49][0m [31m[1m[login with google][0m From databse id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[19:55:49][0m [31m[1m[login with google][0m id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[19:56:37][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[19:56:37][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[19:56:38][0m [31m[1m[login with google][0m From databse id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[19:56:38][0m [31m[1m[login with google][0m id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[20:52:12][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[20:52:12][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[20:52:14][0m [31m[1m[login with google][0m From databse id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[20:52:14][0m [31m[1m[login with google][0m id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[13:27:15][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[13:27:16][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[13:27:16][0m [31m[1m[login with google][0m From databse id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[13:27:16][0m [31m[1m[login with google][0m id: 1, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:03:47][0m [31m[1m[Create Invoice][0m -------------Server log create invoice------------- 
+[90m[15:03:47][0m [31m[1m[Create Invoice][0m userId: 1, currency: USD, grossAmount: undefined, netAmount: undefined
+      vatAmount: undefined, vatRate: undefined, payerName: John DoeskipKYC, country: HU, zip: 1051, city: Budapest, street: Erzsebet Ter 9-10,
+      payer_id: 7WMAPR2LNZRTY    
+[90m[15:03:48][0m [34m[1m[payment billing activated][0m Invoice xml: undefined 
+  
+  
+ [90m[15:05:57][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[15:05:57][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[15:05:57][0m [31m[1m[login with google][0m From databse id: undefined, username: undefined, email: undefined 
+[90m[15:05:57][0m [31m[1m[login with google][0m -------------Server log login create account with google------------- 
+[90m[15:05:58][0m [31m[1m[login with google][0m id: 30001, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:05:58][0m [31m[1m[login with google][0m id: 30001, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:06:42][0m [31m[1m[Create Invoice][0m -------------Server log create invoice------------- 
+[90m[15:06:42][0m [31m[1m[Create Invoice][0m userId: 30001, currency: USD, grossAmount: undefined, netAmount: undefined
+      vatAmount: undefined, vatRate: undefined, payerName: John DoeskipKYC, country: HU, zip: 1051, city: Budapest, street: Erzsebet Ter 9-10,
+      payer_id: 7WMAPR2LNZRTY    
+[90m[15:06:43][0m [34m[1m[payment billing activated][0m Invoice xml: undefined 
+  
+  
+ [90m[15:07:58][0m [31m[1m[Create Invoice][0m -------------Server log create invoice------------- 
+[90m[15:07:58][0m [31m[1m[Create Invoice][0m userId: 30001, currency: USD, grossAmount: 11.99, netAmount: 9.44
+      vatAmount: 2.55, vatRate: 27, payerName: John DoeskipKYC, country: HU, zip: 1051, city: Budapest, street: Erzsebet Ter 9-10,
+      payer_id: 7WMAPR2LNZRTY    
+[90m[15:07:58][0m [31m[1m[Create Invoice][0m -------------Server log create invoice end------------- 
+[90m[15:07:58][0m [34m[1m[payment billing activated][0m Invoice xml: <?xml version="1.0" encoding="UTF-8"?>
+    <xmlszamla xmlns="http://www.szamlazz.hu/xmlszamla" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.szamlazz.hu/xmlszamla https://www.szamlazz.hu/szamla/docs/xsds/agent/xmlszamla.xsd">
+      <beallitasok>
+        <szamlaagentkulcs>45a8qpcu7522va33wbpf7522vanxr93a7522vabusv</szamlaagentkulcs>
+        <eszamla>true</eszamla>
+        <szamlaLetoltes>true</szamlaLetoltes>
+        <valaszVerzio>1</valaszVerzio>
+      </beallitasok>
+
+      <fejlec>
+        <keltDatum>2026-10-27</keltDatum>
+        <teljesitesDatum>2026-10-27</teljesitesDatum>
+        <fizetesiHataridoDatum>2026-10-27</fizetesiHataridoDatum>
+        <fizmod>PayPal</fizmod>
+        <penznem>USD</penznem>
+        <szamlaNyelve>hu</szamlaNyelve>
+        <megjegyzes>PayPal tranzakció: I-9NYR2T6B01TF</megjegyzes>
+        <arfolyamBank>MNB</arfolyamBank>
+        <arfolyam>0.0</arfolyam>
+        <rendelesSzam>I-9NYR2T6B01TF</rendelesSzam>
+        <dijbekero>false</dijbekero>
+        <szamlaszamElotag></szamlaszamElotag>
+        <fizetve>true</fizetve>
+      </fejlec>
+
+      <elado></elado>
+
+      <vevo>
+        <nev>John DoeskipKYC</nev>
+        <orszag>HU</orszag>
+        <irsz>1051</irsz>
+        <telepules>Budapest</telepules>
+        <cim>Erzsebet Ter 9-10</cim>
+        <email>sb-agaqb52558596@personal.example.com</email>
+        <sendEmail>true</sendEmail>
+        <adoszam>undefined</adoszam>
+      </vevo>
+
+      <tetelek>
+        <tetel>
+          <megnevezes>Pro</megnevezes>
+          <mennyiseg>1.0</mennyiseg>
+          <mennyisegiEgyseg>db</mennyisegiEgyseg>
+          <nettoEgysegar>9.44</nettoEgysegar>
+          <afakulcs>27</afakulcs>
+          <nettoErtek>9.44</nettoErtek>
+          <afaErtek>2.55</afaErtek>
+          <bruttoErtek>11.99</bruttoErtek>
+        </tetel>
+      </tetelek>
+    </xmlszamla> 
+  
+  
+ [90m[15:12:56][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[15:12:57][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[15:12:57][0m [31m[1m[login with google][0m From databse id: undefined, username: undefined, email: undefined 
+[90m[15:12:57][0m [31m[1m[login with google][0m -------------Server log login create account with google------------- 
+[90m[15:12:57][0m [31m[1m[login with google][0m id: 30002, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:12:57][0m [31m[1m[login with google][0m id: 30002, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:14:01][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[15:14:02][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[15:14:02][0m [31m[1m[login with google][0m From databse id: undefined, username: undefined, email: undefined 
+[90m[15:14:02][0m [31m[1m[login with google][0m -------------Server log login create account with google------------- 
+[90m[15:14:03][0m [31m[1m[login with google][0m id: 30003, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:14:03][0m [31m[1m[login with google][0m id: 30003, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:14:52][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[15:14:52][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[15:14:53][0m [31m[1m[login with google][0m From databse id: undefined, username: undefined, email: undefined 
+[90m[15:14:53][0m [31m[1m[login with google][0m -------------Server log login create account with google------------- 
+[90m[15:14:53][0m [31m[1m[login with google][0m id: 30004, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:14:53][0m [31m[1m[login with google][0m id: 30004, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:15:26][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[15:15:27][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[15:15:27][0m [31m[1m[login with google][0m From databse id: undefined, username: undefined, email: undefined 
+[90m[15:15:27][0m [31m[1m[login with google][0m -------------Server log login create account with google------------- 
+[90m[15:15:28][0m [31m[1m[login with google][0m id: 30005, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:15:28][0m [31m[1m[login with google][0m id: 30005, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:16:11][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[15:16:12][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[15:16:12][0m [31m[1m[login with google][0m From databse id: undefined, username: undefined, email: undefined 
+[90m[15:16:12][0m [31m[1m[login with google][0m -------------Server log login create account with google------------- 
+[90m[15:16:12][0m [31m[1m[login with google][0m id: 30006, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:16:12][0m [31m[1m[login with google][0m id: 30006, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:16:51][0m [31m[1m[login with google][0m -------------Server log login with google------------- 
+[90m[15:16:51][0m [31m[1m[login with google][0m From google email: daritomika@gmail.com, name: Tomika Dari, sub: 116776925162837475132 
+[90m[15:16:51][0m [31m[1m[login with google][0m From databse id: undefined, username: undefined, email: undefined 
+[90m[15:16:51][0m [31m[1m[login with google][0m -------------Server log login create account with google------------- 
+[90m[15:16:52][0m [31m[1m[login with google][0m id: 30007, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:16:52][0m [31m[1m[login with google][0m id: 30007, username: Tomika Dari, email: daritomika@gmail.com 
+[90m[15:17:35][0m [31m[1m[Create Invoice][0m -------------Server log create invoice------------- 
+[90m[15:17:35][0m [31m[1m[Create Invoice][0m userId: 30007, currency: USD, grossAmount: 5.99, netAmount: 4.72
+      vatAmount: 1.27, vatRate: 27, payerName: John DoeskipKYC, country: HU, zip: 1051, city: Budapest, street: Erzsebet Ter 9-10,
+      payer_id: 7WMAPR2LNZRTY    
+[90m[15:17:36][0m [31m[1m[Create Invoice][0m -------------Server log create invoice end------------- 
+[90m[15:17:36][0m [34m[1m[payment billing activated][0m Invoice xml: <?xml version="1.0" encoding="UTF-8"?>
+    <xmlszamla xmlns="http://www.szamlazz.hu/xmlszamla" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.szamlazz.hu/xmlszamla https://www.szamlazz.hu/szamla/docs/xsds/agent/xmlszamla.xsd">
+      <beallitasok>
+        <szamlaagentkulcs>45a8qpcu7522va33wbpf7522vanxr93a7522vabusv</szamlaagentkulcs>
+        <eszamla>true</eszamla>
+        <szamlaLetoltes>true</szamlaLetoltes>
+        <valaszVerzio>1</valaszVerzio>
+      </beallitasok>
+
+      <fejlec>
+        <keltDatum>2026-10-27</keltDatum>
+        <teljesitesDatum>2026-10-27</teljesitesDatum>
+        <fizetesiHataridoDatum>2026-10-27</fizetesiHataridoDatum>
+        <fizmod>PayPal</fizmod>
+        <penznem>USD</penznem>
+        <szamlaNyelve>hu</szamlaNyelve>
+        <megjegyzes>PayPal tranzakció: I-7DCJD22RHBP4</megjegyzes>
+        <arfolyamBank>MNB</arfolyamBank>
+        <arfolyam>0.0</arfolyam>
+        <rendelesSzam>I-7DCJD22RHBP4</rendelesSzam>
+        <dijbekero>false</dijbekero>
+        <szamlaszamElotag></szamlaszamElotag>
+        <fizetve>true</fizetve>
+      </fejlec>
+
+      <elado></elado>
+
+      <vevo>
+        <nev>John DoeskipKYC</nev>
+        <orszag>HU</orszag>
+        <irsz>1051</irsz>
+        <telepules>Budapest</telepules>
+        <cim>Erzsebet Ter 9-10</cim>
+        <email>sb-agaqb52558596@personal.example.com</email>
+        <sendEmail>true</sendEmail>
+        <adoszam>undefined</adoszam>
+      </vevo>
+
+      <tetelek>
+        <tetel>
+          <megnevezes>Basic</megnevezes>
+          <mennyiseg>1.0</mennyiseg>
+          <mennyisegiEgyseg>db</mennyisegiEgyseg>
+          <nettoEgysegar>4.72</nettoEgysegar>
+          <afakulcs>27</afakulcs>
+          <nettoErtek>4.72</nettoErtek>
+          <afaErtek>1.27</afaErtek>
+          <bruttoErtek>5.99</bruttoErtek>
+        </tetel>
+      </tetelek>
+    </xmlszamla> 
+  
+  
+ [90m[15:31:11][0m [31m[1m[Create Invoice][0m -------------Server log create invoice------------- 
+[90m[15:31:11][0m [31m[1m[Create Invoice][0m userId: 30007, currency: USD, grossAmount: 11.99, netAmount: 9.44
+      vatAmount: 2.55, vatRate: 27, payerName: John DoeskipKYC, country: HU, zip: 1051, city: Budapest, street: Erzsebet Ter 9-10,
+      payer_id: 7WMAPR2LNZRTY    
+[90m[15:31:11][0m [31m[1m[Create Invoice][0m -------------Server log create invoice end------------- 
+[90m[15:31:11][0m [34m[1m[payment billing activated][0m Invoice xml: <?xml version="1.0" encoding="UTF-8"?>
+    <xmlszamla xmlns="http://www.szamlazz.hu/xmlszamla" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.szamlazz.hu/xmlszamla https://www.szamlazz.hu/szamla/docs/xsds/agent/xmlszamla.xsd">
+      <beallitasok>
+        <szamlaagentkulcs>45a8qpcu7522va33wbpf7522vanxr93a7522vabusv</szamlaagentkulcs>
+        <eszamla>true</eszamla>
+        <szamlaLetoltes>true</szamlaLetoltes>
+        <valaszVerzio>1</valaszVerzio>
+      </beallitasok>
+
+      <fejlec>
+        <keltDatum>2026-10-27</keltDatum>
+        <teljesitesDatum>2026-10-27</teljesitesDatum>
+        <fizetesiHataridoDatum>2026-10-27</fizetesiHataridoDatum>
+        <fizmod>PayPal</fizmod>
+        <penznem>USD</penznem>
+        <szamlaNyelve>hu</szamlaNyelve>
+        <megjegyzes>PayPal tranzakció: I-4468ABKEX4XV</megjegyzes>
+        <arfolyamBank>MNB</arfolyamBank>
+        <arfolyam>0.0</arfolyam>
+        <rendelesSzam>I-4468ABKEX4XV</rendelesSzam>
+        <dijbekero>false</dijbekero>
+        <szamlaszamElotag></szamlaszamElotag>
+        <fizetve>true</fizetve>
+      </fejlec>
+
+      <elado></elado>
+
+      <vevo>
+        <nev>John DoeskipKYC</nev>
+        <orszag>HU</orszag>
+        <irsz>1051</irsz>
+        <telepules>Budapest</telepules>
+        <cim>Erzsebet Ter 9-10</cim>
+        <email>sb-agaqb52558596@personal.example.com</email>
+        <sendEmail>true</sendEmail>
+        <adoszam>undefined</adoszam>
+      </vevo>
+
+      <tetelek>
+        <tetel>
+          <megnevezes>Pro</megnevezes>
+          <mennyiseg>1.0</mennyiseg>
+          <mennyisegiEgyseg>db</mennyisegiEgyseg>
+          <nettoEgysegar>9.44</nettoEgysegar>
+          <afakulcs>27</afakulcs>
+          <nettoErtek>9.44</nettoErtek>
+          <afaErtek>2.55</afaErtek>
+          <bruttoErtek>11.99</bruttoErtek>
+        </tetel>
+      </tetelek>
+    </xmlszamla> 
+  
+  
  
