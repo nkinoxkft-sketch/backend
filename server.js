@@ -89,6 +89,8 @@ process.on('SIGTERM', async () => {
 
 const corsOptions = {
     origin: [
+        'http://www.cloudifytalk.com',
+        'http://cloudifytalk.com',
         'http://localhost:5173',  
         'http://192.168.1.50:5173',
         'http://172.20.10.4:5173'       
