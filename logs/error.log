@@ -1576,3 +1576,234 @@
   },
   "ip": "192.168.56.1"
 }
+[2026-10-27 18:53:59] [ERROR] [PROD-ONLY]: update vat numbers | meta: {
+  "error": {
+    "message": "fetch failed",
+    "stack": "TypeError: fetch failed"
+  }
+}
+[2026-10-29 12:00:34] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 12:01:03] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 12:03:06] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 12:25:48] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 12:26:25] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 12:28:27] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 13:15:19] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 13:15:31] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 13:15:46] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 13:16:03] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 13:17:53] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 13:18:07] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:00:31] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:01:04] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:03:10] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:03:13] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:03:37] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:05:45] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:12:41] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:13:15] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:15:18] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 14:57:56] [ERROR]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 60001,
+  "ip": "192.168.1.50"
+}
+[2026-10-29 14:57:56] [ERROR]: /api/getSessions | meta: {
+  "error": "No valid subscription or not enough credit.",
+  "userId": 60001,
+  "ip": "192.168.1.50"
+}
+[2026-10-29 15:04:54] [ERROR]: /api/setInstruction | meta: {
+  "error": "Bad request",
+  "userId": 30007,
+  "ip": "192.168.1.50"
+}
+[2026-10-29 15:05:13] [ERROR]: /api/setInstruction | meta: {
+  "error": "Bad request",
+  "userId": 30007,
+  "ip": "192.168.1.50"
+}
+[2026-10-29 15:10:00] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 15:10:33] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 15:12:44] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 15:19:39] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 15:20:14] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 15:22:24] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 15:55:30] [ERROR]: /api/setInstruction | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.update()` invocation:\n\n\nThe provided value for the column is too long for the column's type. Column: instruction",
+    "stack": "PrismaClientKnownRequestError: \nInvalid `prisma.users.update()` invocation:\n\n\nThe provided value for the column is too long for the column's type. Column: instruction\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7315)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:237:5",
+    "code": "P2000"
+  },
+  "ip": "192.168.1.50",
+  "userId": 60001
+}
+[2026-10-29 16:18:59] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 16:20:02] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 16:22:09] [ERROR]: paypal-webhook | meta: {
+  "error": {
+    "message": "Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.",
+    "stack": "TypeError: Cannot destructure property 'processed_webhook' of '(intermediate value)' as it is null.\n    at file:///D:/fullstack-projekt/backend/Payment/payment.js:496:21"
+  }
+}
+[2026-10-29 17:13:11] [ERROR]: /api/getSubData | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.subscriptions.findFirst()` invocation:\n\n\nCan't reach database server at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`\n\nPlease make sure your database server is running at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`.",
+    "stack": "PrismaClientInitializationError: \nInvalid `prisma.subscriptions.findFirst()` invocation:\n\n\nCan't reach database server at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`\n\nPlease make sure your database server is running at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`.\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7615)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async checkSubStatus (file:///D:/fullstack-projekt/backend/Subscription/subData.js:58:18)\n    at async file:///D:/fullstack-projekt/backend/Subscription/subData.js:24:5"
+  },
+  "userId": 60001,
+  "ip": "192.168.1.50"
+}
+[2026-10-29 17:13:11] [ERROR]: /api/getInstruction | meta: {
+  "error": {
+    "message": "\nInvalid `prisma.users.findUnique()` invocation:\n\n\nCan't reach database server at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`\n\nPlease make sure your database server is running at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`.",
+    "stack": "PrismaClientInitializationError: \nInvalid `prisma.users.findUnique()` invocation:\n\n\nCan't reach database server at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`\n\nPlease make sure your database server is running at `gateway01.eu-central-1.prod.aws.tidbcloud.com:4000`.\n    at $n.handleRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:7615)\n    at $n.handleAndLogRequestError (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6623)\n    at $n.request (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:121:6307)\n    at async l (D:\\fullstack-projekt\\backend\\node_modules\\@prisma\\client\\runtime\\library.js:130:9633)\n    at async file:///D:/fullstack-projekt/backend/Aicomunication/AiCom.js:165:20"
+  },
+  "ip": "192.168.1.50",
+  "userId": 60001
+}

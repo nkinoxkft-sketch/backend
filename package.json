@@ -39,6 +39,7 @@
     "nanoid": "^6.0.1",
     "node-cron": "^4.6.0",
     "nodemailer": "^9.0.5",
+    "openai": "^7.45.1",
     "playwright": "^1.62.1",
     "playwright-extra": "^4.3.6",
     "puppeteer": "^25.9.0",

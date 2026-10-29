@@ -3,7 +3,8 @@ import logger from "../winstonown.js";
 
 const verifyRobotOrToken = async (req, res, next) =>{
 
-    
+    next();
+    return;
     const userId = req.user?.userId;
     const ip = req.ip;
     const cloud = req.body?.cloud;

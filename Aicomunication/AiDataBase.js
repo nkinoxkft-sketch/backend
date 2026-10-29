@@ -13,7 +13,7 @@ export const addMessage = async (user_id, prompt, message, session_crypted, used
             `;
 
             // 2. Session megkeresése vagy létrehozása (UPSERT)
-            const placeholder = prompt ? prompt.substring(0, 100) : "";
+            const placeholder = message ? message.substring(0, 100) : "";
             const currentSession = await tx.session.upsert({
                 where: { session_crypted: session_crypted },
                 update: {}, 
@@ -149,8 +149,7 @@ export const getMessagesByOffset = async (session_crypted, limit) => {
     const takeAmount = 5;
     const parsedLimit = Number.parseInt(limit) || takeAmount;
     const offset = Math.max(0, parsedLimit - takeAmount); 
-    
-
+     
     const result = await prisma.session.findUnique( { where: { session_crypted: session_crypted }, select: { id: true } } )
 
     if(!result){

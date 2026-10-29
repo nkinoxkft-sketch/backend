@@ -48,6 +48,9 @@ router.post('/api/login', strictJsonLimit, cloudToken.verifyRobotOrToken, loginL
 
         const result = await prisma.users.findUnique( { where: { email: email} }  )
 
+
+        logger.info('/api/login', {email: email, ip: ip, result: result} );
+        
         if(!result){
 
             const dummyHash = '$2b$10$abcdefghijklmnopqrstuuABCDEFGHIJKLMNOPQRSTUVWXYZ012345';
@@ -68,11 +71,14 @@ router.post('/api/login', strictJsonLimit, cloudToken.verifyRobotOrToken, loginL
 
         let isValid = false; 
 
+
         if(pass_in_databse){
 
-            isValid = bcrypt.compare(password, pass_in_databse);
+            isValid = await bcrypt.compare(password, pass_in_databse);
 
         }
+
+        logger.info('/api/login', {email: email, ip: ip,  isValid: isValid} );
 
         if(!isValid){
 

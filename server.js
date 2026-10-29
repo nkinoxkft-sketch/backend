@@ -36,8 +36,12 @@ BigInt.prototype.toJSON = function() {
 const app = express();
 
 const allowedOrigins = [
+  'http://localhost:5173',
+  'http://192.168.56.1:5173',
+  'http://192.168.1.50:5173',
   'https://cloudifytalk.com',
-  'https://www.cloudifytalk.com'
+  'https://www.cloudifytalk.com',
+  'https://curly-acorn-shank.ngrok-free.dev'
 ];
 
 // CORS beállítása rögtön az elején

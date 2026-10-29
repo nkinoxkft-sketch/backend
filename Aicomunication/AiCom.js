@@ -14,7 +14,7 @@ const router = express.Router();
 const limiter = limiterimport.createRateLimiter({
 
   windowSeconds: 1 * 60,
-  maxAttempts: 60,
+  maxAttempts: 80,
   message: 'Too many failed attempts. You are locked out for 1 minutes.'
 
 })
@@ -222,7 +222,7 @@ router.post('/api/setInstruction', strictJsonLimitInt, verify.verifyToken, limit
   const userId = req.user?.userId
   const requestId = req.id;
   const ip = req.ip;
-  const instruct = req.body.instruction || null
+  const instruct = req.body.instruct || null
 
   try{
 
