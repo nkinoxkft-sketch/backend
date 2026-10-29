@@ -13,7 +13,8 @@ export const addMessage = async (user_id, prompt, message, session_crypted, used
             `;
 
             // 2. Session megkeresése vagy létrehozása (UPSERT)
-            const placeholder = message ? message.substring(0, 100) : "";
+            const placeholder = message ? message.substring(0, 100) : "prompt";
+        
             const currentSession = await tx.session.upsert({
                 where: { session_crypted: session_crypted },
                 update: {}, 
