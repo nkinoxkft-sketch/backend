@@ -11,6 +11,7 @@ import { prisma } from '../database.js';
 import { z } from 'zod' 
 import validator from '../Midleware/validator.js';
 import { versions } from 'node:process';
+import 'dotenv/config';
 const router = express.Router();
 const anthropic = new AnthropicBedrock({
   awsRegion: process.env.AWS_REGION || 'us-east-1',
