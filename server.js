@@ -31,7 +31,7 @@ BigInt.prototype.toJSON = function() {
     return this.toString(); 
 
 };
-
+console.log(process.env.AWS_ACCESS_KEY_ID)
 
 const app = express();
 
