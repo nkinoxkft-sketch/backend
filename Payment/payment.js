@@ -18,7 +18,7 @@ async function getPayPalAccessToken() {
     const clientId = process.env.PAYPAL_CLIENT_ID;
     const clientSecret = process.env.PAYPAL_CLIENT_SECRET;
     const auth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
-    const res = await axios.post('https://api-m.paypal.com/v1/oauth/token](https://api-m.paypal.com/v1/oauth/token', 'grant_type=client_credentials', {
+    const res = await axios.post('https://api-m.paypal.com/v1/oauth/token', 'grant_type=client_credentials', {
         headers: { 'Authorization': `Basic ${auth}`, 'Content-Type': 'application/x-www-form-urlencoded' }
     });
 
