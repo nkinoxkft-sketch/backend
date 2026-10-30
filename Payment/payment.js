@@ -14,7 +14,7 @@ const serverlog = serverLog('payment')
 const router = express.Router();
 
 async function getPayPalAccessToken() {
-    console.log(process.env.PAYPAL_CLIENT_ID, process.env.PAYPAL_CLIENT_SECRET)
+    console.log(process.env.PAYPAL_CLIENT_ID, process.env.PAYPAL_CLIENT_SECRET, "https://api-m.paypal.com/v1/oauth/token")
     const clientId = process.env.PAYPAL_CLIENT_ID;
     const clientSecret = process.env.PAYPAL_CLIENT_SECRET;
     const auth = Buffer.from(`${clientId}:${clientSecret}`).toString('base64');
