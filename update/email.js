@@ -3,12 +3,12 @@ import { Resend } from 'resend';
 const resend = new Resend(process.env.RESEND_EMAIL);
 
 const sendPasswordResetEmail = async (userEmail, resetToken) => {
-  const resetLink = ` https://curly-acorn-shank.ngrok-free.dev/reset-password?token=${resetToken}`;
+  const resetLink = `https://www.cloudifytalk.com/reset-password?token=${resetToken}`;
 
   const { data, error } = await resend.emails.send({
-    from: 'Claudify <onboarding@resend.dev>', // Érdemes az 'Appod Neve' helyett a végleges nevet használni
+    from: 'Cloudify <onboarding@resend.dev>', // Érdemes az 'Appod Neve' helyett a végleges nevet használni
     to: userEmail,
-    subject: 'Reset Your Claudify Password',
+    subject: 'Reset Your Cloudify Password',
     html: `
       <div style="background-color: #f3f4f6; padding: 60px 20px; text-align: center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
         
@@ -17,7 +17,7 @@ const sendPasswordResetEmail = async (userEmail, resetToken) => {
         </h2>
         
         <p style="color: #555555; font-size: 16px; line-height: 1.6; max-width: 450px; margin: 0 auto 30px auto;">
-          You recently requested to reset your password for your Claudify account. Click the button below to securely set up a new one.
+          You recently requested to reset your password for your Cloudify account. Click the button below to securely set up a new one.
         </p>
         
         <a href="${resetLink}" style="display: inline-block; padding: 14px 28px; background-color: #1C1C1C; color: #ffffff; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 15px;">
@@ -46,7 +46,7 @@ const sendEmailChangeCode = async (userEmail, code) => {
  
 
  const { data, error } = await resend.emails.send({
-  from: 'Claudify <onboarding@resend.dev>', 
+  from: 'Cloudify <onboarding@resend.dev>', 
   to: userEmail,
   subject: 'Verify Your New Email Address',
   html: `

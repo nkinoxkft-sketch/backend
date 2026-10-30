@@ -115753,3 +115753,116 @@
   "ip": "192.168.1.50",
   "sessions_lenght": 5
 }
+[2026-10-30 13:31:47] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:31:47] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:31:47] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:31:49] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:31:49] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:03] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:03] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:04] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:04] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:05] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:05] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:06] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:06] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:07] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:07] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:21] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:21] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:22] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:22] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:23] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:23] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:26] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:26] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
+[2026-10-30 13:37:48] [INFO]: /api/getInstruction instruction selected | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1"
+}
+[2026-10-30 13:37:48] [INFO]: /api/getSessions reply sessions generated | meta: {
+  "userId": 30007,
+  "ip": "192.168.56.1",
+  "sessions_lenght": 0
+}
